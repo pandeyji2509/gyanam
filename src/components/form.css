@@ -3,7 +3,7 @@
     }
     .td{
         text-decoration: none;
-        color: white;
+        color: rgb(12, 9, 9);
     }
 
     .register{
@@ -36,10 +36,11 @@
       }
       
       #form > .btn{
-        background-color: #003049;
-        color: #e9ecef;
+        /* background-color: #003049; */
+        color: #000000;
         font-size: 1em;
         cursor: pointer;
+        color: #000000;
       }
       
       .flex{
