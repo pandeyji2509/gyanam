@@ -1,24 +1,24 @@
 import React from 'react';
-import './form.css';
 import {
     BrowserRouter as Router,
     Routes,
     Route,
     Link
   } from "react-router-dom";
+  import styless from "./form.module.css"
 export default function Form() {
   return (
-    <section className='Apps'>
-        <div className="register bt ">
-            <div className="col-1">
+    <section className={styless.Apps}>
+        <div className={styless.register}>
+            <div className={styless.col_1}>
                 <h2 className=''>GYANAM</h2>
-                <form id='form' className='flex flex-col'>
-                    <button className='btn bt'><Link className="td" to="/question_bank">Question Bank</Link></button>
-                    <button className='btn bt'><Link className="td" to="/send_papers">Send Papers</Link></button>
-                    <button className='btn bt'><Link className="td" to="/templates">Templates</Link></button>
-                    <button className='btn bt'><Link className="td" to="/buy_now">Buy Now</Link></button>
-                    <button className='btn bt'><Link className="td" to="/activate_licence">Activate Licence</Link></button>
-                    <button className='btn bt'><Link className="td" to="/about">About</Link></button>
+                <form  className={styless.formal}>
+                    <button className={styless.btn}><Link className={styless.td} to="/question_bank">Question Bank</Link></button>
+                    <button className={styless.btn}><Link className={styless.td} to="/send_papers">Send Papers</Link></button>
+                    <button className={styless.btn}><Link className={styless.td} to="/templates">Templates</Link></button>
+                    <button className={styless.btn}><Link className={styless.td} to="/buy_now">Buy Now</Link></button>
+                    <button className={styless.btn}><Link className={styless.td} to="/activate_licence">Activate Licence</Link></button>
+                    <button className={styless.btn}><Link className={styless.td} to="/about">About</Link></button>
                 </form>
             </div>
         </div>
