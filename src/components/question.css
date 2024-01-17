@@ -1,0 +1,247 @@
+.head{
+    align-items: center;
+}
+.quest{
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.fm{
+    margin: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 50px;
+}
+#class{
+    width: 170px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+#Language{
+    width: 170px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+#Question{
+    width: 170px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+#Subject{
+    width: 170px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+#auto{
+    margin-right: 90px;
+    margin-top: 5px;
+}
+#Chapter{
+    margin-right: 30px;
+    width: 400px;
+    height:23px;
+    overflow-y:auto;
+}
+.select-wrap{
+    display: inline;
+}
+#question_type{
+    width: 470px;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+#qt{
+    margin-left: 50px;
+    
+}
+#Topic{
+    width: 700px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#t1{
+    margin-left: 160px;
+}
+.rvw{
+    margin-right: 10px;
+}
+.clr{
+    margin-right: 10px;
+}
+#sq{
+    margin-right: 1px;
+    margin-top: 5px;
+}
+#selectauto{
+    margin-right: 30px;
+    margin-top: 5px;
+}
+#selecttotal{
+    margin-right: 10px;
+}
+#autototal{
+    margin-left: 10px;
+    margin-right: 80px;
+}
+#Topics{
+    margin-left: 0px;
+}
+#t2{
+    margin-left: 60px;
+}
+.reg{
+    /* max-width: auto; */
+    width: auto;
+    height: 20vh;
+    display:flex;
+    /* margin-left: 0px; */
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    /* box-shadow: 1px 3px 10px #e9ecef; */
+    background-color: white;
+  }
+  .cont{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+      list-style: none;
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Open Sans', sans-serif;
+  }
+
+  option{
+    overflow-y:scroll;
+  }
+  body{
+      background: #f5f6fa;
+  }
+  
+  .wrapper .sidebar{
+      background: rgb(213, 225, 232);
+      position: fixed;     
+      left: 0;
+      width: 300px;
+      height: 100%;
+      padding: 0px 0;
+      transition: all 0.5s ease;
+      
+  }
+  .wrapper1 .sidebar1{
+    background: rgb(213, 225, 232);
+    position: fixed;     
+    right: 0;
+    width: 290px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+.tq{
+    background: rgb(213, 225, 232);
+    width: 80px;
+    margin: 2px;
+    padding: 5px;
+    /* text-align: justify; */
+}
+.ts{
+    width: 80px;
+    margin-top: 5px;
+    margin: 2px;
+    padding: 5px;
+    background: rgb(213, 225, 232);
+    /* text-align: justify; */
+}
+.bt-summ{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+.bt-quest-paper{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+}
+.bt-save-paper{
+    margin: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.ques-box{
+    margin: auto;
+    width: 200px;
+    height: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: solid;
+}
+.bt-question{
+    z-index: 10;
+    padding-left: 10px;
+    padding-top: -5px;
+    padding-right: 5px;
+
+}
+.vis{
+    display: none;
+}
+.top-qp{
+    width: inherit;
+    display:inline-flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    background: rgb(192, 203, 210);
+}
+.sec-qp{
+    width: inherit;
+    display:inline-flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+.bt-ico{
+    padding: 2px;
+    justify-content: space-between;
+}
+
+.qp-top{
+    width: inherit;
+    justify-content: space-between; 
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    background: rgb(145, 152, 157);
+}
+.qq{
+    /* text-color:white; */
+}
+.num_ques{
+    text-decoration: none;
+    color: black;
+    
+}
+.parent-qnum{
+    display: flex;
+    height: 35px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.num_ques{
+    width: 90px;
+}
+.inp{    
+    margin-left: 70px;
+}

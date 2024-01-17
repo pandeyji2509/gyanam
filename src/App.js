@@ -6,6 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import QuestionPaper from './components/question_paper';
 function App() {
   return (
     <div className='App'>
@@ -13,6 +14,12 @@ function App() {
         <Routes>
           <Route path="/"
             exact element={<Form />}>
+          </Route>
+          <Route path="/question_bank"
+            exact element={<QuestionPaper />}>
+          </Route>
+          <Route path="/question_bank/:id"
+            exact element={<QuestionPaper />}>
           </Route>
         </Routes>
       </Router>

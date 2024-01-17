@@ -8,7 +8,7 @@ import {
   } from "react-router-dom";
 export default function Form() {
   return (
-    <section>
+    <section className='Apps'>
         <div className="register bt ">
             <div className="col-1">
                 <h2 className=''>GYANAM</h2>
